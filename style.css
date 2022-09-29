@@ -1,0 +1,14 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 82, 171);
+    background-color:#1c1c1c;
+    text-align: center;
+    border: 5px dotted rgb(255, 189, 245);}
+
+a:link {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: whitesmoke;
+}
