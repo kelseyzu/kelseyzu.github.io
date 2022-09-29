@@ -1,0 +1,17 @@
+body {background-color:#c7d8be;
+font-family: 'Courier New', Courier, monospace;}
+h1 {color:#445d38;
+    text-align: center;}
+h2 {color: #6e9b57;
+    text-align: center;}
+h3 {color:#8aac7b;
+    text-align: center;}
+p {color:#7b20a6;
+    text-align: center;}
+
+img {width: 100%;}
+div {
+    border: 4px solid rgb(255, 225, 0);
+    padding: 60px;
+    margin: 20px;
+}
