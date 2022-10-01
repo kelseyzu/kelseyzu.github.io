@@ -1,5 +1,5 @@
 body {
-    margin:0;
+    margin: 0;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     color: rgb(189, 67, 22);
@@ -8,7 +8,7 @@ body {
     background-color: rgb(246, 236, 204);
 }
 .arrows {
-    width: 10%;
+    width: 15%;
 }
 .apples {
     width: 60%;
