@@ -1,0 +1,25 @@
+main {
+    width: 100%;
+}
+
+div img {
+    width: 100%;
+}
+
+.gallery1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery1 div {
+    flex: 25%;
+}
+
+.gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery2 div {
+    flex: 1;
+}
