@@ -3,7 +3,11 @@ body {
     color: rgb(255, 82, 171);
     background-color:#1c1c1c;
     text-align: center;
-    border: 5px dotted rgb(255, 189, 245);}
+    border: 5px dotted goldenrod;
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+}
 
 a:link {
     color: whitesmoke;
