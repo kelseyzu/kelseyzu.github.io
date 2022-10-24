@@ -9,19 +9,19 @@ body {
 }
 
 #right-wheel, #left-wheel {
-    animation: wheel 1sec linear;
+    animation: wheel 1s ease-in-out infinite;
     transform-origin: center;
     transform-box: fill-box;
 }
 
 #woman {
-    animation: bike 1s ease-in-out infinite alternate;
+    animation: woman 1s ease-in-out infinite alternate;
     transform-origin: bottom;
 }
 
 #hair {
-    animation: hat 1s ease-in-out infinite alternate;
-    transform-origin: center;
+    animation: hair 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
     transform-box: fill-box;
 }
 
@@ -36,18 +36,18 @@ body {
 
 @keyframes woman {
     from {
-        transform: rotateX(0deg)
+        transform: rotateX(0deg);
     }
     to {
-        transform: rotateX(20deg)
+        transform: rotateX(20deg);
     }
 }
 
 @keyframes hair {
     from {
-        transform: translateY (0%) rotateZ(0deg);
+        transform: translateY(0%);
     }
-    to{
-        transform: translateY (40%) rotateZ(20deg);
+    to {
+        transform: translateY(25%);
     }
 }
